@@ -1,0 +1,278 @@
+:root {
+    --branco-principal: #000000;
+    --cinza-secundario: #000000;
+    --botao-azul: #3fff4f;
+    --cor-de-fundo: #000000;
+    --fonte-principal: 'Inter';
+    --botao-azul-efeito: #ff5b9a;
+    --botao-2: #ffffff;
+    --skibidi: #ffad15;
+    --branco: white;
+
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    overflow-x: hidden;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    background-image: url("img/bloons\ back\ 2.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 100%;
+    background-position-y: 0px;
+    
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+    border: 2px solid var(--branco-principal);
+       /* POSIÇÃO */
+  position: relative; /* define a posição como relativa para poder movê-la */
+  left: 390px; /* move a imagem 50 pixels para a direita */
+  top: 150px; /* move a imagem 20 pixels para baixo */
+
+}
+
+.botao_secundario {
+    background-color: var(--botao-2);
+    border: 2px solid var(--branco-principal);
+}
+
+.container__aviso {
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    margin: 0 11em;
+       /* POSIÇÃO */
+  position: relative; /* define a posição como relativa para poder movê-la */
+  left: 250px; /* move a imagem 50 pixels para a direita */
+  top: 150px; /* move a imagem 20 pixels para baixo */
+}
+
+.container__titulo {
+    font-size: 28px;
+    font-weight: 700;
+       /* POSIÇÃO */
+  position: relative; /* define a posição como relativa para poder movê-la */
+  left: 390px; /* move a imagem 50 pixels para a direita */
+  top: 250px; /* move a imagem 20 pixels para baixo */
+}
+
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+
+.container__caixa {
+    margin: 0 6em;
+   
+}
+
+.secundario__imagem {
+    width: 80%;
+     /* POSIÇÃO */
+  position: relative; /* define a posição como relativa para poder movê-la */
+  left: 100px; /* move a imagem 50 pixels para a direita */
+  top: -85px; /* move a imagem 20 pixels para baixo */
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+   
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 48px;
+    color: white;
+    margin-bottom: 0.1em;
+        /* POSIÇÃO */
+  position: relative; /* define a posição como relativa para poder movê-la */
+  left: -100px; /* move a imagem 50 pixels para a direita */
+  top: -250px; /* move a imagem 20 pixels para baixo */
+ 
+   
+}
+
+.descricao__texto {
+    color: white;
+          /* POSIÇÃO */
+  position: relative; /* define a posição como relativa para poder movê-la */
+  left: -100px; /* move a imagem 50 pixels para a direita */
+  top: -150px; /* move a imagem 20 pixels para baixo */
+}
+
+.secundario__botao {
+    display: inline-block;
+    margin-top: 1em;
+    
+    
+}
+
+.container__descricao {
+    padding: 2em;
+        /* POSIÇÃO */
+  position: relative; /* define a posição como relativa para poder movê-la */
+  left: 200px; /* move a imagem 50 pixels para a direita */
+  top: 100px; /* move a imagem 20 pixels para baixo */
+ 
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__titulo {
+    font-size: 48px;
+    color: var(--branco);
+}
+
+.lista__item {
+    font-size: 32px;
+    color: var(--branco);
+}
+
+.rodape {
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.lista__link a{
+    text-decoration: none;
+    color: var(--branco);
+    margin-left: 1em;
+}
+
+.rodape__texto {
+    margin: 1em 0;
+    color: var(--branco);
+    font-size: 14px;
+}
+
+.lista__link a:hover {
+    color: var(--botao-azul);
+}
+
+.lista__link a:active {
+    color: purple;
+}
+
+.container__botao:hover {
+    background-color: var(--botao-azul-efeito);
+    color: var(--cor-de-fundo);
+    
+}
+
+.logo {
+    /* POSIÇÃO */
+  position: relative; /* define a posição como relativa para poder movê-la */
+  left: -220px; /* move a imagem 50 pixels para a direita */
+  top: -250px; /* move a imagem 20 pixels para baixo */
+    /* TAMANHO */
+  width: 300px; /* define a largura da imagem como 200 pixels */
+  height: 130px; /* define a altura da imagem como 150 pixels */
+  
+  
+}
+
+
+.skibidi {  
+    
+    background-color: var(--skibidi);
+    border-radius: 10px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+    border: 2px solid var(--branco-principal);
+    margin: 0 11em;
+    /* POSIÇÃO */
+    position: relative; /* define a posição como relativa para poder movê-la */
+    left: -300px; /* move a imagem 50 pixels para a direita */
+    top: 1350px; /* move a imagem 20 pixels para baixo */ }
+
+    .skibidi:hover {
+        background-color: var(--botao-azul-efeito);
+    }
+
+    .Logo {
+        
+        width: 300px; /* define a largura da imagem como 200 pixels */
+        height: 130px; /* define a altura da imagem como 150 pixels */
+        }
+
+
+        .texto {
+             background-color: white;
+    border-radius: 90px;
+    padding: 1em;
+    position: relative; /* define a posição como relativa para poder movê-la */
+    left: 390px; /* move a imagem 50 pixels para a direita */
+    top: 250px; /* move a imagem 20 pixels para baixo */
+  
+            
+        }
+
+        
+    
+
+    .vala { 
+        background-image: url("img/bloons\ back\ 1.jpg");
+        background-repeat: no-repeat;
+      background-size: 900px;
+      background-position-x: 689px;
+    }
+
+.banana { background-image: url(img/mapa\ bloons.png);
+    background-repeat: no-repeat;
+    background-size: 900px;
+    
+}
+
+.lixo {
+    position: relative; /* define a posição como relativa para poder movê-la */
+    left: 0px; /* move a imagem 50 pixels para a direita */
+    top: 300px; /* move a imagem 20 pixels para baixo */
+}
